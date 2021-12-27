@@ -11,9 +11,9 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
   <img src="https://github.com/CityTropes/Arduino_basics/blob/adc775e7ae417fe651b5e3db47e7af85b4a961ac/media/rgb_connected.png" />
 </p>
 
-3. My_Buttons (Digital inputs): programming 2 connected buttons (Input) and a ledPin (Output)
+3. My_Buttons (Digital inputs): programming 2 connected buttons (Input) and a ledPin (Output).
 
-4. Active Buzzer: connecting and simple code
+4. Active Buzzer: connecting and simple code to put power through connected pin.
 
 5. Passive buzzer: simple connection. 
       Code 1: passive_buzzer_Loop_of_notes
