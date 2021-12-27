@@ -15,7 +15,7 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
 
 4. My_Active_Buzzer: connecting and simple code to put power through connected pin.
 
-5. %y_Passive__Buzzer: simple connection. 
+5. My_Passive__Buzzer: simple connection. 
     a) Code 1: passive_buzzer_Loop_of_notes
     b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
     c) Code 3: passive_buzzer_song_Take_on_me_Aha 
