@@ -20,3 +20,5 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
       Code 1: passive_buzzer_Loop_of_notes
       Code 2: passive_buzzer_song_Beethoven_OdeToJoy
       Code 3: passive_buzzer_song_Take_on_me_Aha 
+      
+6. Tilt Ball Switch: turning on a LED when a tilt-switch is turned 90° or more.
