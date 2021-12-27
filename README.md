@@ -11,3 +11,4 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
   <img src="https://github.com/CityTropes/Arduino_basics/blob/adc775e7ae417fe651b5e3db47e7af85b4a961ac/media/rgb_connected.png" />
 </p>
 
+3. My_Twoo_Buttons (Digital inputs): programming 2 connected buttons (Input) and a ledPin (Output)
