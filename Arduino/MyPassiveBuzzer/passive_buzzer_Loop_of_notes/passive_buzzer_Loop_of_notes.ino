@@ -13,10 +13,10 @@ void setup() {
 // loop of all the notes
 void loop() {     
   for (int thisNote = 0; thisNote < 8; thisNote++) {
-    // pin8 output the voice, every scale is 0.5 sencond
+   
+    // pin8 output the voice, every scale is 0.5 second
     tone(8, melody[thisNote], duration);
      
-    // Output the voice after several minutes
     delay(1000);
   }
    
