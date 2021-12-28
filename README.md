@@ -28,3 +28,5 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
 7. Servo_Motor: code for moving an attached servo motor an exact number of degrees.
 
 8. Ultrasonic_Sensor: connecting and setting 'trigger' and 'echo' pins. Program that measures distance (from sensor) every second. Output to the Serial Monitor.
+
+9. Temperature_And_Humidity_Sensor: take measurement every 4 seconds, output temperature in °C and humidity % to the Serial Monitor.
