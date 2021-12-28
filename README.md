@@ -36,3 +36,5 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
 11. IR_Receiver_Module (and remote control): program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
 
 12. LCD_Display: program that prints "CityTropes counter: " on first line and a counter (per second) on the second line of a connected display.
+
+13. DC_Motor: setup includes adding a power supply module to provide extra power for motor, adding L293D-chip to control the motor (never connect motor to board!). Connecting the Arduino board to L293D-chip, chip to motor and power supply. Test code lets motor turn in different directions at different speeds. 
