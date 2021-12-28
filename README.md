@@ -35,4 +35,4 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
 
 11. IR_Receiver_Module (and remote control): program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
 
-12. LCD_Display: program that prints "CityTropes counter: " on first line and a counter (per second) on the second line of a connected display.
+12. LCD_Display: program that prints "CityTropes counter: " on first line and a counter (per second) on the second line of a connected display. Circuit and code also make use of a connected potentiometer (10k) to adjust the LCD display's brightness. 
