@@ -2,7 +2,6 @@
 basic wiring and programming of an Arduino/Elegoo UNO R3 board.
 
 
-
 1. Blink: first test program - Arduino UNO R3 board's on/off LED ('L' LED), making it blink how/when you want.
 
 2. RGB_Led: connecting an RGB-LED to the board (limit voltage to LED with resistors) and program the connected pins to show chosen colors at startup.  Next, keeps looping between colors.
