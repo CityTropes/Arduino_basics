@@ -34,3 +34,5 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
 10. Analog_Joystick_Module: program for an analog joystick (basically potentiometers that return analog values) that reads full X-Y values (connected on board's analog in) + button press (connected to digital). Output values from 0 to 1024 to the Serial Monitor.
 
 11. IR_Receiver_Module (and remote control): program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
+
+12. LCD_Display: program that prints "CityTropes counter: " on first line and a counter (per second) on the second line of a connected display.
