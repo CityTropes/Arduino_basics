@@ -1,10 +1,13 @@
 
 
 int buzzer = 5;   //the pin of the active buzzer
+
 void setup()
 {
- pinMode(buzzer,OUTPUT);//initialize the buzzer pin as an output
+ pinMode(buzzer,OUTPUT);  //initialize the buzzer pin as an output
 }
+
+
 void loop()
 {
  unsigned char i;
