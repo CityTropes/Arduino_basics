@@ -24,3 +24,5 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
     c) Code 3: passive_buzzer_song_Take_on_me_Aha 
       
 6. Tilt Ball Switch: turning on a LED when a tilt-switch is turned 90° or more.
+
+7. Code for moving an attached servo motor an exact number of degrees.
