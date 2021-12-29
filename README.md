@@ -50,7 +50,7 @@ basic wiring and programming of an Arduino/Elegoo UNO R3 board.
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/motor_and_power_supply_module.png" />
 </p>
 
-14. EightLED_ShiftRegisterChip: connecting 8 LEDs with a 74hc595-Chip to control them individually. Program flashes half the leds at startup, next loops through all the LEDS.
+14. EightLED_ShiftRegisterChip: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/eight_led_via_chip.png" />
