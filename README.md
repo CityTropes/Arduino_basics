@@ -9,7 +9,7 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/rgb_connected.png" />
 </p>
   
-3. **Buttons (Digital inputs)**: programming 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when pressed- output power to a pin (connected to led), other button is programmed to disconnect power to that pin.
+3. **Buttons (Digital inputs)**: programming 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when clicked- activate power output to a pin (connected to led), other button is programmed to disconnect power to that pin.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/two_buttons.png" />
