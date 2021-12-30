@@ -1,5 +1,5 @@
 # Arduino_basics
-#### Basic wiring and code for an Arduino/Elegoo UNO R3 board: connecting & programming LEDs, sensors, buttons, motors. 
+#### Basic wiring and code for an Arduino/Elegoo UNO R3 board: programming LEDs, sensors, buttons, motors. 
 <br>
 
 1. **Blink**: first test program. Arduino UNO R3 board's on/off LED ('L' LED), code sets the status light to blink.
