@@ -3,10 +3,8 @@
 
 1. **Blinking_lights**: first test program, controlling lights.
 
-			a) BlinkStatuslight: Arduino UNO R3 board's on/off LED ('L' LED), code sets the status light to blink.
-
-			b) Sequential_blinking_traffic_light: simple traffic light program to control connectected red, yellow and green LEDs.
-
+	a) BlinkStatuslight: Arduino UNO R3 board's on/off LED ('L' LED), code sets the status light to blink. <br>
+	b) Sequential_blinking_traffic_light: simple traffic light program to control connectected red, yellow and green LEDs.
 
 2. **RGB_Led**: connected an RGB-LED to the board (use resistors!) and added code to make connected pins show chosen colors at startup.  Next, gradually keeps looping between colors.
 
@@ -28,11 +26,11 @@
 
 5. **Passive_Buzzer**: simple connection (see active buzzer), code to play frequencies. 
 
-                                          a) Code 1: passive_buzzer_Loop_of_notes
+                                     a) Code 1: passive_buzzer_Loop_of_notes
     
-                                          b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
+                                     b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
     
-                                          c) Code 3: passive_buzzer_song_Take_on_me_Aha 
+                                     c) Code 3: passive_buzzer_song_Take_on_me_Aha 
   
       
 6. **Tilt_Ball_Switch**: code to power on a connected LED when a tilt-switch is turned upright. When the tilt-ball-switch is tilted 90° or more, the program will disconnect the output (to the led).
