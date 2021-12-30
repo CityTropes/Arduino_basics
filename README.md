@@ -1,7 +1,12 @@
 # Arduino_basics
 #### Basic wiring and code for an Arduino/Elegoo UNO R3 board: programming LEDs, sensors, buttons, motors. <br>
 
-1. **Blink**: first test program. Arduino UNO R3 board's on/off LED ('L' LED), code sets the status light to blink.
+1. **Blinking_lights**: first test program, controlling lights.
+
+			a) BlinkStatuslight: Arduino UNO R3 board's on/off LED ('L' LED), code sets the status light to blink.
+
+			b) Sequential_blinking_traffic_light: simple traffic light program to control connectected red, yellow and green LEDs.
+
 
 2. **RGB_Led**: connected an RGB-LED to the board (use resistors!) and added code to make connected pins show chosen colors at startup.  Next, gradually keeps looping between colors.
 
