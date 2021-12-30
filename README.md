@@ -30,7 +30,7 @@
                                           c) Code 3: passive_buzzer_song_Take_on_me_Aha 
   
       
-6. **Tilt_Ball_Switch**: turning on a connected LED when a tilt-switch is turned upright. When the tilt-ball-switch is tilted 90° or more, the program will disconnect the output (to the led).
+6. **Tilt_Ball_Switch**: code to power on a connected LED when a tilt-switch is turned upright. When the tilt-ball-switch is tilted 90° or more, the program will disconnect the output (to the led).
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/tilt_ball_switch.png" />
