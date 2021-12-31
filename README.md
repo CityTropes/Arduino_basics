@@ -6,6 +6,11 @@
 	a) **BlinkStatuslight**: Arduino UNO R3 board's on/off LED ('L' LED), code sets the status light to blink. <br>
 	
 	b) **Sequential_blinking_traffic_light**: simple traffic light program to control connectected red, yellow and green LEDs.
+	
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/traffic_light.png" />
+</p>
+	
 
 2. **RGB_Led**: connected an RGB-LED to the board (use resistors!) and added code to make connected pins show chosen colors at startup.  Next, gradually keeps looping between colors.
 
@@ -79,6 +84,9 @@
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/eight_led_via_chip.png" />
 </p>
-<br>
 
 15. **Thermometer_With_Display**: code for using a thermistor (that changes its resistance with temperature) to convert its output via Arduino. Also displays the output to a connected lcd-screen (updates every second).
+
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/thermometer.png" />
+</p>
