@@ -88,5 +88,5 @@
 15. **Thermometer_With_Display**: code for using a thermistor (that changes its resistance with temperature) to convert its output via Arduino. Also displays the output to a connected lcd-screen (updates every second).
 
 <p align="center">
-  <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/thermometer.png" />
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/444719e11e4f6514ead720168bcd2134433af97c/media/thermometer.png" />
 </p>
