@@ -22,11 +22,11 @@
 
 	a) **Two_Buttons**: basic code for 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when clicked- activate power output to a pin (connected to led), other button is programmed to disconnect power to that pin. <br>
 
+	b) **Tiny_Piano**: code for multiple connected buttons that play notes when pressed (output to buzzer playing different frequencies).
+	
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/two_buttons.png" />
 </p>
-	
-	b) **Tiny_Piano**: code for multiple connected buttons that play notes when pressed (output to buzzer playing different frequencies).
 
 
 4. **Active_Buzzer**: simple code to put power through an Arduino pin connected to buzzer.
@@ -58,14 +58,14 @@
 
 8. **Ultrasonic_Sensor_Module**: connecting and setting 'trigger' and 'echo' pins. 
 
-	a) **Ultrasonic_Sensor: test program that measures distance (from sensor) every second. Works in range 2cm - 400cm. Output to the Serial Monitor.
+	a) **Ultrasonic_Sensor**: test program that measures distance (from sensor) every second. Works in range 2cm - 400cm. Output to the Serial Monitor.
+
+
+	b) **Distance_Meter_LED_output**: code takes distance input from ultrasonic sensor, converts it and shows output through connected LEDs. Far away objects light up few (green) 		lights, the closer an object is to the sensor, the more lights will activate (yellow and red).
 
 <p align="center">
-  <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/ultrasonic_sensor.png" />
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/14b6842a005691c0396ecdd47f3ffefa2bdc20c3/media/proximity_leds.png" />
 </p>
-
-	b) **Distance_Meter_LED_output**: code takes distance input from ultrasonic sensor, converts it and shows output through connected LEDs. Far away objects light up few (green) lights, the closer an object is to the sensor, the more lights will activate (yellow and red).
-
 
 9. **Temperature_And_Humidity_Sensor**: take measurement every 4 seconds, output temperature in °C and humidity % to the Serial Monitor.
 
