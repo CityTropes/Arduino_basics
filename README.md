@@ -104,14 +104,14 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/joystick.jpg" />
 </p>
 
-8. **Eight_LED_ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS. Second program is similar.
+**8. Eight_LED_ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS. Second program is similar.
 <br>
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/eight_led_via_chip.png" />
 </p>
 
-9. **Motors**: connecting and controlling motors and extra power sources.
+**9. Motors**: connecting and controlling motors and extra power sources.
 
 9.a) **Servo_Motor**: code for moving an attached servo motor an exact number of degrees.
 
@@ -119,5 +119,11 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/servo_motor.png" />
 </p>
 
-9.b) **DC_Motor**: setup includes adding a power supply module to provide extra power for motor, adding L293D-chip to control the motor (never connect motor directly to board!). Connecting the Arduino board to L293D-chip, chip to motor and power supply. Test code lets motor turn in different directions at different speeds. 
 <br>
+
+9.b) **DC_Motor**: setup includes adding a power supply module to provide extra power for motor, adding L293D-chip to control the motor (never connect motor directly to board!). Connecting the Arduino board to L293D-chip, chip to motor and power supply. Test code lets motor turn in different directions at different speeds. 
+
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/829ac765355d23c156a5f02a56ccbda42a91376d/media/motor_and_power_supply_module.png" />
+</p>
+
