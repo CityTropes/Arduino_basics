@@ -25,7 +25,7 @@
 	b) **Tiny_Piano**: code for multiple connected buttons that play notes when pressed (output to buzzer playing different frequencies).
 	
 <p align="center">
-  <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/two_buttons.png" />
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/47edaadf4c213a269c5aac01168571181a93b260/media/tiny_buzzer_piano.png" />
 </p>
 
 
