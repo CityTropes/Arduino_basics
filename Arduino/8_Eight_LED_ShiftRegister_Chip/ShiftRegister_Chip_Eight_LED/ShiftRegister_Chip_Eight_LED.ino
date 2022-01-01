@@ -44,8 +44,6 @@ void setup()
   updateShiftRegister();
   delay(1000);
   
-  
-  
 }
 
 void loop() 
