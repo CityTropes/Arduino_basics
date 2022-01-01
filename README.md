@@ -18,11 +18,16 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/rgb_connected.png" />
 </p>
   
-3. **Buttons (Digital inputs)**: programming 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when clicked- activate power output to a pin (connected to led), other button is programmed to disconnect power to that pin.
+3. **Buttons (Digital inputs)**: programming  connected buttons.
+
+	a) **Two_Buttons**: basic code for 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when clicked- activate power output to a pin (connected to led), other button is programmed to disconnect power to that pin. <br>
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/two_buttons.png" />
 </p>
+	
+	b) **Tiny_Piano**: code for multiple connected buttons that play notes when pressed (output to buzzer playing different frequencies).
+
 
 4. **Active_Buzzer**: simple code to put power through an Arduino pin connected to buzzer.
 
@@ -51,11 +56,16 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/servo_motor.png" />
 </p>
 
-8. **Ultrasonic_Sensor_Module**: connecting and setting 'trigger' and 'echo' pins. Program that measures distance (from sensor) every second. Works in range 2cm - 400cm. Output to the Serial Monitor.
+8. **Ultrasonic_Sensor_Module**: connecting and setting 'trigger' and 'echo' pins. 
+
+	a) **Ultrasonic_Sensor: test program that measures distance (from sensor) every second. Works in range 2cm - 400cm. Output to the Serial Monitor.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/ultrasonic_sensor.png" />
 </p>
+
+	b) **Distance_Meter_LED_output**: code takes distance input from ultrasonic sensor, converts it and shows output through connected LEDs. Far away objects light up few (green) lights, the closer an object is to the sensor, the more lights will activate (yellow and red).
+
 
 9. **Temperature_And_Humidity_Sensor**: take measurement every 4 seconds, output temperature in °C and humidity % to the Serial Monitor.
 
@@ -79,13 +89,13 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/motor_and_power_supply_module.png" />
 </p>
 
-14. **EightLED_ShiftRegisterChip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS.
+14. **Eight_LED_ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/eight_led_via_chip.png" />
 </p>
 
-15. **Thermometer_With_Display**: code for using a thermistor (that changes its resistance with temperature) to convert its output via Arduino. Also displays the output to a connected lcd-screen (updates every second).
+15. **Thermistor_Thermometer_With_Display**: code for using a thermistor (that changes its resistance with temperature) to convert its output via Arduino. Also displays the output to a connected lcd-screen (updates every second).
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/thermometer.png" />
