@@ -16,6 +16,19 @@
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/rgb_connected.png" />
 </p>
+<<<<<<< HEAD
+=======
+  
+3. **Buttons (Digital inputs)**: programming  connected buttons.
+
+	a) **Two_Buttons**: basic code for 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when clicked- activate power output to a pin (connected to led), other button is programmed to disconnect power to that pin. <br>
+
+	b) **Tiny_Piano**: code for multiple connected buttons that play notes when pressed (output to buzzer playing different frequencies).
+	
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/47edaadf4c213a269c5aac01168571181a93b260/media/tiny_buzzer_piano.png" />
+</p>
+>>>>>>> 0ce09663ec7c887c5b7e32367ba5f76c6fd236a8
 
 2. **Buzzers**
 
