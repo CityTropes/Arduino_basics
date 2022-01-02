@@ -86,6 +86,10 @@
 
 5.c) **Seven_Segment_Display_Four_Digits**: test code to put a number on a four digit display.
 
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/df2138f709da7b1e125a334e827faff3465a49c7/resources/pictures/seven_segment_display_four_digits.png" />
+</p>
+
 <br>
 
 **6. Sensors_Light_Temperature_And_Humidity**
@@ -112,11 +116,15 @@
 
 7.b) **Analog_Joystick_Controlling_Leds**: code lets analog joystick fully control leds. Pressing up, down, left or right will turn on the corresponding lights (with 360° control to select multiple lights). You can also increase/descrease brightness by moving the joystick further from the center position. Pressing the joystick (button press) powers on all the lights.
 
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/df2138f709da7b1e125a334e827faff3465a49c7/resources/pictures/joystick_leds.png" />
+</p>
+
 7.c) **IR_Receiver_Module (and remote control)**: program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
 
 <br>
 
-8. **ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS. Second program is similar.
+**8. ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS. Second program is similar.
 <br>
 
 <p align="center">
