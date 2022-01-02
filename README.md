@@ -104,6 +104,10 @@
 
 6.c) **Light_Sensor_Activates_LED**: code for using a photoresister's (light sensor's) output and convert it to a value in range 1-10. If light value is less than 5 the LED will power on.
 
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/9c6b71db158c246d0f7c9ed7de8262a2d2f4aefe/resources/pictures/photoresistor.png" />
+</p>
+
 <br>
 
 **7. Analog_Joystick_And_IR_Receiver**
