@@ -82,7 +82,9 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/lcd_display.png" />
 </p>
 
-5.b) **Seven_Segment_Display_Counting**: test code to put some numbers on a single display.
+5.b) **Seven_Segment_Display_Counting**: test code to change some numbers on a single display (1 digit).
+
+5.c) **Seven_Segment_Display_Four_Digits**: test code to put a number on a four digit display.
 
 <br>
 
@@ -102,13 +104,15 @@
 
 **7. Analog_Joystick_And_IR_Receiver**
 
-7.a) **Analog_Joystick_Module**: : basic code for an analog joystick (basically potentiometers that return analog values) that reads full X-Y values (connected to board's analog in) + button press (connected to digital). Output values from 0 to 1024 to the Serial Monitor.
+7.a) **Analog_Joystick_Module**: basic code for an analog joystick (basically potentiometers that return analog values) that reads full X-Y values (connected to board's analog in) + button press (connected to digital). Output values from 0 to 1024 to the Serial Monitor.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/joystick.jpg" />
 </p>
 
-7.b) **IR_Receiver_Module (and remote control)**: program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
+7.b) **Analog_Joystick_Controlling_Leds**: code lets analog joystick fully control leds. Pressing up, down, left or right will turn on the corresponding lights (with 360° control to select multiple lights). You can also increase/descrease brightness by moving the joystick further from the center position. Pressing the joystick (button press) powers on all the lights.
+
+7.c) **IR_Receiver_Module (and remote control)**: program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
 
 <br>
 
