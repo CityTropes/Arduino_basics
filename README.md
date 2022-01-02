@@ -7,7 +7,7 @@
 
 1.a) **BlinkStatuslight**: first test program, set UNO R3 board's on/off LED ('L' LED), code sets the status light to blink. <br>
 	
-1.b) **Sequential_blinking_traffic_light**: simple traffic light program to control connectected red, yellow and green LEDs.
+1.b) **LED_Sequential_blinking_traffic_light**: simple traffic light program to control connectected red, yellow and green LEDs.
 	
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/traffic_light.png" />
@@ -40,7 +40,7 @@
   
 <br>
 
-**3. Buttons_And_Tilt_Switch**
+**3. Buttons_And_Switches**
 
 3.a) **Two_Buttons**: basic code for 2 connected buttons (Input) and a ledPin (Output). One button is programmed to -when clicked shortly- permanently activate power output to a pin (connected to led), other button is programmed to disconnect power to that ledpin. <br>
 
@@ -74,7 +74,7 @@
 
 <br>
 
-**5. LCD_Display_And_IR_Receiver_Module**
+**5. Displays**
 
 5.a) **LCD_Display**: program that prints "CityTropes counter: " on first line and a counter (per second) on the second line of a connected display. Setup includes a Potentiometer (10k) to adjust screen brightness.
 
@@ -82,11 +82,11 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/lcd_display.png" />
 </p>
 
-5.b) **IR_Receiver_Module (and remote control)**: program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
+5.b) **Seven_Segment_Display_Counting**: test code to put some numbers on a single display.
 
 <br>
 
-**6. Temperature_And_Humidity_Sensors**
+**6. Sensors_Light_Temperature_And_Humidity**
 
 6.a) **Temperature_And_Humidity_Sensor**: take measurement with simple sensor every 4 seconds, output temperature in °C and humidity % to the Serial Monitor.
 
@@ -96,15 +96,23 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/444719e11e4f6514ead720168bcd2134433af97c/media/thermometer.png" />
 </p>
 
+6.c) **Light_Sensor_Activates_LED**: code for using a photoresister's (light sensor's) output and convert it to a value in range 1-10. If light value is less than 5 the LED will power on.
+
 <br>
 
-**7. Analog_Joystick_Module**: basic code for an analog joystick (basically potentiometers that return analog values) that reads full X-Y values (connected to board's analog in) + button press (connected to digital). Output values from 0 to 1024 to the Serial Monitor.
+**7. Analog_Joystick_And_IR_Receiver**
+
+7.a) **Analog_Joystick_Module**: : basic code for an analog joystick (basically potentiometers that return analog values) that reads full X-Y values (connected to board's analog in) + button press (connected to digital). Output values from 0 to 1024 to the Serial Monitor.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/joystick.jpg" />
 </p>
 
-8. **Eight_LED_ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS. Second program is similar.
+7.b) **IR_Receiver_Module (and remote control)**: program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
+
+<br>
+
+8. **ShiftRegister_Chip**: connecting 8 LEDs with a 74hc595-Chip to control them individually (control 8 outputs using only 3 Arduino-pins). Program flashes half the leds at startup, next loops through all the LEDS. Second program is similar.
 <br>
 
 <p align="center">
