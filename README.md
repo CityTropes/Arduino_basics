@@ -50,7 +50,9 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/f283458a35bdf447b46827d7f47c3986039f152c/media/tiny_buzzer_piano.png" />
 </p>
 
-3.c) **Tilt_Ball_Switch**: code to power on a connected LED when a tilt-switch is turned upright. When the tilt-ball-switch is tilted 90° or more, the program will disconnect the output (to the led).
+3.c) **Simon_Says_Game_4_Buttons**: tiny version of the 'Simon says' game. Board will light up 4 leds in particular order, accompanied by buzzer tone. The user must repeat the pattern via 4 buttons to earn points.
+
+3.d) **Tilt_Ball_Switch**: code to power on a connected LED when a tilt-switch is turned upright. When the tilt-ball-switch is tilted 90° or more, the program will disconnect the output (to the led).
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/tilt_ball_switch.png" />
@@ -71,6 +73,8 @@
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/14b6842a005691c0396ecdd47f3ffefa2bdc20c3/media/proximity_leds.png" />
 </p>
+
+5.c) **Sound_Sensor_Module**: code that turns on led when a microphone is activated.
 
 <br>
 
@@ -139,9 +143,11 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/servo_motor.png" />
 </p>
 
+9.b) **Automatic_Gate_Servo_Ultrasonic_Leds**: setup with an ultrasonic sensors, a servo motor (gate) and red/green leds. Code for opening the gate and turning on the green light when an object gets within 10cm from sensor. Gate stays open for a few seconds, does one check if the path in front of sensor is free, and then closes the gate with red light back on.
+
 <br>
 
-9.b) **DC_Motor**: setup includes adding a power supply module to provide extra power for motor, adding L293D-chip to control the motor (never connect motor directly to board!). Connecting the Arduino board to L293D-chip, chip to motor and power supply. Test code lets motor turn in different directions at different speeds. 
+9.c) **DC_Motor**: setup includes adding a power supply module to provide extra power for motor, adding L293D-chip to control the motor (never connect motor directly to board!). Connecting the Arduino board to L293D-chip, chip to motor and power supply. Test code lets motor turn in different directions at different speeds. 
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/829ac765355d23c156a5f02a56ccbda42a91376d/media/motor_and_power_supply_module.png" />
