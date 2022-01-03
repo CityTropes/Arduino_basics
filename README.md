@@ -50,7 +50,12 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/f283458a35bdf447b46827d7f47c3986039f152c/media/tiny_buzzer_piano.png" />
 </p>
 
-3.c) **Simon_Says_Game_4_Buttons**: tiny version of the 'Simon says' game. Board will light up 4 leds in particular order, accompanied by buzzer tone. The user must repeat the pattern via 4 buttons to earn points.
+3.c) **Simon_Says_Game_4_Buttons**: tiny version of the 'Simon says' game. Board will light up the 4 leds in particular order, accompanied by buzzer tone, make ever longer sequences. The user must repeat the pattern via 4 buttons to earn points.
+
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/077ccf1e157cabaa1715b963fd000b1250dbb99e/resources/pictures/simon_says.png" />
+</p>
+
 
 3.d) **Tilt_Ball_Switch**: code to power on a connected LED when a tilt-switch is turned upright. When the tilt-ball-switch is tilted 90° or more, the program will disconnect the output (to the led).
 
@@ -143,11 +148,11 @@
 
 9.a) **Servo_Motor**: code for moving an attached servo motor an exact number of degrees.
 
-<p align="center">
-  <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/servo_motor.png" />
-</p>
-
 9.b) **Automatic_Gate_Servo_Ultrasonic_Leds**: setup with an ultrasonic sensors, a servo motor (gate) and red/green leds. Code for opening the gate and turning on the green light when an object gets within 10cm from sensor. Gate stays open for a few seconds, does one check if the path in front of sensor is free, and then closes the gate with red light back on.
+
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/077ccf1e157cabaa1715b963fd000b1250dbb99e/resources/pictures/automatic_gate.png" />
+</p>
 
 <br>
 
