@@ -5,7 +5,7 @@
 
 **1. Lights_LED_and_RGB**
 	
-1.a) **LED_Sequential_blinking_traffic_light**: simple traffic light program to control connectected red, yellow and green LEDs.
+1.a) **LED_Sequential_blinking_traffic_light**: simple traffic light timer-program to control connectected red, yellow and green LEDs.
 	
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/traffic_light.png" />
