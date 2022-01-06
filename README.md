@@ -11,7 +11,7 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/de3dc76c1a83c9a5a60bbcb25c348b6d6917bad6/media/traffic_light.png" />
 </p>
 
-1.b) **RGB_Led**: connected an RGB-LED to the board (use resistors!) and added code to make connected pins show chosen colors at startup.  Next, gradually keeps looping between colors.
+1.b) **RGB_Led**: an RGB-LED is connected to the breadboard (use resistors!). Code makes connected pins show chosen colors at startup.  Next, gradually keeps looping between colors.
  
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/rgb_connected.png" />
