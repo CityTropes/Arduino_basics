@@ -1,5 +1,5 @@
 # Arduino_basics
-#### Basic wiring and code for an Arduino/Elegoo UNO R3 board: programming LEDs, sensors, buttons, motors. <br>
+#### Basic wiring and code for an Arduino UNO R3 board: programming LEDs, sensors, buttons, motors. <br>
 
 <br>
 
