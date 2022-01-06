@@ -21,11 +21,7 @@
 
 **2. Buzzers**
 
-2.a) **Active_Buzzer**: simple code to put power through an Arduino pin connected to buzzer.
-
-<p align="center">
-  <img src="https://github.com/CityTropes/Arduino_basics/blob/2b858fea2df94c348802aa8320c6d2ca78dca4c0/media/passive_buzzer.png" />
-</p>
+2.a) **Active_Buzzer**: simple code to put power through an Arduino pin connected to buzzer. Connection from buzzer: 1 wire to ground and 1 wire to selected digital pin.
 
 2.b) **Passive_Buzzer**: simple connection (see active buzzer), code to play frequencies. 
 
@@ -34,7 +30,6 @@
                                      b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
     
                                      c) Code 3: passive_buzzer_song_Take_on_me_Aha 
-  
   
 <br>
 
