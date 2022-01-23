@@ -25,21 +25,14 @@
 
 2.b) **Passive_Buzzer**: simple connection (see active buzzer), code to play frequencies. 
 
-                                     a) Code 1: passive_buzzer_Loop_of_notes
-    
-                                     b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
-    
-                                     c) Code 3: passive_buzzer_song_Take_on_me_Aha 
-										
-				d) Code 4: passive_buzzer_song_Game_of_thrones
-
-				e) Code 5: passive_buzzer_song_Tetris
-
-				f) Code 6: passive_buzzer_song_Super_Mario_Bros
-
-				g) Code 7: passive_buzzer_song_Elephant_Walk
-
-				h) Code 8: passive_buzzer_song_Star_Wars
+		a) Code 1: passive_buzzer_Loop_of_notes
+		b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
+		c) Code 3: passive_buzzer_song_Take_on_me_Aha 					
+		d) Code 4: passive_buzzer_song_Game_of_thrones
+		e) Code 5: passive_buzzer_song_Tetris
+		f) Code 6: passive_buzzer_song_Super_Mario_Bros
+		g) Code 7: passive_buzzer_song_Elephant_Walk
+		h) Code 8: passive_buzzer_song_Star_Wars
   
 <br>
 
@@ -95,6 +88,10 @@
 5.b) **LCD_Display_Scroll_Text**: Simple code example to make text scroll on an LCD.
 
 5.c) **Chrome_Dino_Game**: play the Chrome dino game on an LCD display. Input via 1 button (jump to avoid cacti).
+
+<p align="center">
+  <img src="https://github.com/CityTropes/Arduino_basics/blob/22ced21ade18e11cfd119bec6c8ad491cf224cf4/resources/pictures/chrome_dino_game.png" />
+</p>
 
 5.d) **Seven_Segment_Display_Counting**: test code to change some numbers on a single display (1 digit).
 
