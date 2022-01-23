@@ -30,6 +30,16 @@
                                      b) Code 2: passive_buzzer_song_Beethoven_OdeToJoy
     
                                      c) Code 3: passive_buzzer_song_Take_on_me_Aha 
+										
+				d) Code 4: passive_buzzer_song_Game_of_thrones
+
+				e) Code 5: passive_buzzer_song_Tetris
+
+				f) Code 6: passive_buzzer_song_Super_Mario_Bros
+
+				g) Code 7: passive_buzzer_song_Elephant_Walk
+
+				h) Code 8: passive_buzzer_song_Star_Wars
   
 <br>
 
