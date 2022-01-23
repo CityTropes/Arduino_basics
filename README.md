@@ -82,9 +82,13 @@
   <img src="https://github.com/CityTropes/Arduino_basics/blob/315148d21e06229a31a48aca6f53778b0a4823cc/media/lcd_display.png" />
 </p>
 
-5.b) **Seven_Segment_Display_Counting**: test code to change some numbers on a single display (1 digit).
+5.b) **LCD_Display_Scroll_Text**: Simple code example to make text scroll on an LCD.
 
-5.c) **Seven_Segment_Display_Four_Digits**: test code to put a number on a four digit display.
+5.c) **Chrome_Dino_Game**: play the Chrome dino game on an LCD display. Input via 1 button (jump to avoid cacti).
+
+5.d) **Seven_Segment_Display_Counting**: test code to change some numbers on a single display (1 digit).
+
+5.e) **Seven_Segment_Display_Four_Digits**: test code to put a number on a four digit display.
 
 <p align="center">
   <img src="https://github.com/CityTropes/Arduino_basics/blob/df2138f709da7b1e125a334e827faff3465a49c7/resources/pictures/seven_segment_display_four_digits.png" />
@@ -110,7 +114,7 @@
 
 <br>
 
-**7. Analog_Joystick_And_IR_Receiver**
+**7. Joystick_Keypad_IR_Receiver And RFID**
 
 7.a) **Analog_Joystick_Module**: basic code for an analog joystick (basically potentiometers that return analog values) that reads full X-Y values (connected to board's analog in) + button press (connected to digital). Output values from 0 to 1024 to the Serial Monitor.
 
@@ -121,6 +125,10 @@
 </p>
 
 7.c) **IR_Receiver_Module (and remote control)**: program that checks if IR-signal is received. If so, sends the name of the corresponding button press to the Serial Monitor. Uses header file for key bindings.
+
+7.d) **Keypad_Led**: code example to control LEDs with a keypad.
+
+7.e) **Rfid_CardReader_Example**: code example, how to read an Rfid-tag with a cardreader.
 
 <br>
 
